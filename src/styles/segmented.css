@@ -1,0 +1,61 @@
+.segmented-horz,
+.segmented-vert {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.segmented-horz {
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+.segmented-horz > .segmented-divider {
+  display: block;
+  position: relative;
+  width: 1px;
+  background: #fff;
+  cursor: ew-resize;
+}
+.segmented-horz > .segmented-divider:before {
+  display: block;
+  content: ' ';
+  background: #aaa;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.segmented-vert {
+  flex-direction: column;
+}
+.segmented-vert > .segmented-divider {
+  display: block;
+  position: relative;
+  height: 1px;
+  background: #fff;
+  cursor: ns-resize;
+}
+.segmented-vert > .segmented-divider:before {
+  display: block;
+  content: ' ';
+  background: #aaa;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.segmented-segment {
+  flex-grow: 1;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: all 0.2s linear;
+}
+.segmented-segment::-webkit-scrollbar {
+  display: none;
+}
