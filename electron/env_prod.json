@@ -1,0 +1,4 @@
+{
+  "name": "production",
+  "electronStartUrl": "http://localhost:3000"
+}
