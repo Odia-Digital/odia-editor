@@ -23,9 +23,10 @@ async function openFile () {
     const { filePaths } = await dialog.showOpenDialog(BrowserWindow.getFocusedWindow(), {
       properties: ['openFile'],
       filters: [
-        { name: 'All supported files', extensions: ['md', 'markdown', 'txt', 'html', 'jade', 'pug', 'js', 'json', 'yaml', 'yml'] },
+        { name: 'All supported files', extensions: ['md', 'markdown', 'txt', 'html', 'jade', 'pug', 'js', 'json', 'yaml', 'yml', 'csv', 'CSV'] },
         { name: 'Markdown Files (*.md)', extensions: ['md', 'markdown'] },
-        { name: 'YAML Files (*.yaml)', extensions: ['yaml', 'yml'] }
+        { name: 'YAML Files (*.yaml)', extensions: ['yaml', 'yml'] },
+        { name: 'CSV Files (*.csv)', extensions: ['csv', 'CSV'] }
       ],
     });
 

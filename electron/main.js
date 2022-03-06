@@ -8,7 +8,7 @@ const { fileMenuTemplate } = require('./menu/file_menu_template');
 const { helpMenuTemplate } = require('./menu/help_menu_template');
 const createWindow = require('./window');
 
-const env = require(`./env_dev.json`);
+const env = require(`./env_prod.json`);
 
 const setApplicationMenu = () => {
   const menus = [fileMenuTemplate, editMenuTemplate, helpMenuTemplate];
@@ -40,7 +40,7 @@ app.on("ready", () => {
 
   mainWindow.loadURL(env.electronStartUrl ||
     url.format({
-      pathname: path.join(__dirname, "app.html"),
+      pathname: path.join(__dirname, "build/index.html"),
       protocol: "file:",
       slashes: true
     })
