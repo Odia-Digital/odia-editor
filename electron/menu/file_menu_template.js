@@ -22,7 +22,7 @@ module.exports.fileMenuTemplate = {
       click: openFile,
     },
     {
-      label: "Extract from Image",
+      label: "Extract from Image (experimental)",
       accelerator: "CmdOrCtrl+Shift+I",
       click: extractImage,
     },

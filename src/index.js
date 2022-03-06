@@ -2,7 +2,6 @@ import './styles/main.css';
 
 import './shared/context_menu.js';
 import './shared/external_links.js';
-//import './shared/actions.js';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

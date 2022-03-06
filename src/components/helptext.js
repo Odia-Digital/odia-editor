@@ -1,5 +1,5 @@
 export default `
-**Character**|** Key Combination**|** Alternatives**
+Character | Key Combination |  Alternatives
 :-----:|:-----:|:-----:
 ଅ| a|
 ଆ| A| aa
@@ -66,7 +66,7 @@ export default `
 ଜ୍ଞ| Jna|
 
 
-**Character**|** Key Combination**|** Alternatives**
+Character |  Key Combination |  Alternatives
 :-----:|:-----:|:-----:
 ଙ୍କ = ଙ + କ| NGka| NG\`ka
 ଙ୍ଖ = ଙ + ଖ| NGkha| NG\`kha
@@ -108,7 +108,7 @@ export default `
 
 #### Examples
 
-**Word**|**Key combination**
+Word | Key combination
 :-----:|:-----:
 ପ୍ରତ୍ନତତ୍ତ୍ବ| pratnatattwa
 ସ୍ବାଭିମାନ| swAvimAna

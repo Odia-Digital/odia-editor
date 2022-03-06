@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Preview ({ content }) {
   return (
-    <div className='preview' dangerouslySetInnerHTML={{ __html: content }} />
+    <div className='markdown-body' dangerouslySetInnerHTML={{ __html: content }} />
   );
 }

@@ -1,6 +1,6 @@
 @import "./segmented.css";
 @import "~codemirror/lib/codemirror.css";
-@import "./markdown.scss";
+@import "./markdown_body.scss";
 
 @font-face {
   font-family: 'odia';
@@ -23,6 +23,7 @@ body {
 }
 
 .App {
+  font-family: 'odia';
   height: 100vh;
   width: 100%;
 }
@@ -50,7 +51,7 @@ body {
   padding: 20px;
   font-family: 'odia';
   font-size: 18px;
-  background: #ffeedf;
+  background: #fffefa;
 }
 
 .loading {
