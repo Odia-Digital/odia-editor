@@ -8387,10 +8387,10 @@
   "resolved" "https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz"
   "version" "1.1.2"
 
-"odia-keyboard@^1.1.1":
-  "integrity" "sha512-NpfwrbFLgEN0H4H91rLH2sKp+MXSvDuR2sTR9QSIxmH3rK3+BrhC+PaHmzkXxMC6K8lSomk4u6KIjimh4mL00Q=="
-  "resolved" "https://registry.npmjs.org/odia-keyboard/-/odia-keyboard-1.1.1.tgz"
-  "version" "1.1.1"
+"odia-keyboard@^1.1.2":
+  "integrity" "sha512-W/tS9QntLEhe3+FKZgLfBL8PFxpqjcYhXWEAWlzHdLfIaE+kRPDKjV+VRBiIrYyPNEGYKkXLs+UYr3aKfBh7Rg=="
+  "resolved" "https://registry.npmjs.org/odia-keyboard/-/odia-keyboard-1.1.2.tgz"
+  "version" "1.1.2"
 
 "on-finished@~2.3.0":
   "integrity" "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc="
